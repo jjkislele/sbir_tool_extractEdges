@@ -13,8 +13,7 @@ iterate {
 	smooth(img);
 	each_edge = canny(img);
 }
-```
-
 edges = sum(each_edge)
+```
 
 which has more detail rather than simply using canny
